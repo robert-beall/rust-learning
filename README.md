@@ -1,18 +1,28 @@
 # Rust Basics Cheatsheet
-## Compile a rust file
+## Basics 
+### Compile a rust file
 ```
 rustc <filename>.rs
 ```
-## Run compiled rust code
-### Linux/MacOS
+### Run compiled rust code
+#### Linux/MacOS
 ```
 ./<filename>
 ```
-### Windows
+#### Windows
 ```
 .\<filename>.exe
 ```
-## Initialize a project with cargo
+## Cargo
+### Initialize a project with cargo
 ```
 cargo new <project_name>
+```
+### Compile a cargo project
+```
+cargo build
+```
+### Run a cargo project 
+```
+cargo run
 ```
