@@ -1,4 +1,9 @@
 # Rust Basics Cheatsheet
+## Installation
+### Update rust to stable version of Rust
+```
+rustup update
+```
 ## Basics 
 ### Compile a rust file
 ```
@@ -21,6 +26,10 @@ cargo new <project_name>
 ### Compile a cargo project
 ```
 cargo build
+```
+### Build a project for production
+```
+cargo build --release
 ```
 ### Run a cargo project 
 ```
