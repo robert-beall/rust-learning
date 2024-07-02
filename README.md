@@ -26,3 +26,7 @@ cargo build
 ```
 cargo run
 ```
+### Check that a project will compile
+```
+cargo check
+```
