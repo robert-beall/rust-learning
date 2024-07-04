@@ -1,4 +1,5 @@
 # Rust Basics Cheatsheet
+For more information, consult the rust [book](https://doc.rust-lang.org/book).
 ## Installation
 ### Update rust to stable version of Rust
 ```
