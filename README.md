@@ -39,3 +39,35 @@ cargo run
 ```
 cargo check
 ```
+## Variables
+### Define a (constant) variable
+```
+let x = 5;
+```
+### Define a (mutable) variable
+```
+let mut y = 2;
+```
+## Comments
+### Single line comments
+```
+// a single line comment
+```
+### Multiline comments
+```
+/* A multiline comment */
+```
+## Printing Text
+### Basic print macro
+```
+println!("my text");
+```
+### Print with empty placeholder
+```
+println!("My text: {}", mytext);
+```
+### Print with a filled placeholder
+**Note:** this should be used when printing a result of an operation on one or more variables.
+```
+println!("My text: {mytext}", mytext);
+```
