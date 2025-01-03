@@ -1,4 +1,31 @@
 # Rust Basics Cheatsheet
+
+- [Rust Basics Cheatsheet](#rust-basics-cheatsheet)
+  - [Installation](#installation)
+    - [Update rust to stable version of Rust](#update-rust-to-stable-version-of-rust)
+  - [Basics](#basics)
+    - [Compile a rust file](#compile-a-rust-file)
+    - [Run compiled rust code](#run-compiled-rust-code)
+      - [Linux/MacOS](#linuxmacos)
+      - [Windows](#windows)
+  - [Cargo](#cargo)
+    - [Initialize a project with cargo](#initialize-a-project-with-cargo)
+    - [Compile a cargo project](#compile-a-cargo-project)
+    - [Build a project for production](#build-a-project-for-production)
+    - [Run a cargo project](#run-a-cargo-project)
+    - [Check that a project will compile](#check-that-a-project-will-compile)
+  - [Variables](#variables)
+    - [Define a (constant) variable](#define-a-constant-variable)
+    - [Define a (mutable) variable](#define-a-mutable-variable)
+  - [Comments](#comments)
+    - [Single line comments](#single-line-comments)
+    - [Multiline comments](#multiline-comments)
+  - [Printing Text](#printing-text)
+    - [Basic print macro](#basic-print-macro)
+    - [Print with empty placeholder](#print-with-empty-placeholder)
+    - [Print with a filled placeholder](#print-with-a-filled-placeholder)
+
+
 For more information, consult the rust [book](https://doc.rust-lang.org/book).
 ## Installation
 ### Update rust to stable version of Rust

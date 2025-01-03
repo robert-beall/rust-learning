@@ -1,4 +1,15 @@
-# Variables
+# [Variables](https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html)
+- [Variables](#variables)
+  - [Mutability](#mutability)
+    - [Immutable variable (default behavior)](#immutable-variable-default-behavior)
+    - [Mutable variable](#mutable-variable)
+  - [Constants](#constants)
+    - [Declaring a constant](#declaring-a-constant)
+  - [Shadowing](#shadowing)
+    - [Basic shadowing example](#basic-shadowing-example)
+    - [Shadowing in scope](#shadowing-in-scope)
+    - [Changing type with shadowing](#changing-type-with-shadowing)
+
 ## Mutability
 Variables are immutable by default, meaning that its value cannot be changed. Adding the `mut` keyword in the variable definition changes this behavior.
 ### Immutable variable (default behavior)
